@@ -37,7 +37,7 @@
 * `ping0.cc` (网络分析)
 
 
-### 方式一：部署到 Cloudflare Workers (最简单)
+### 方式一：Workers部署 (最简单)
 
 1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
 2. 进入 **Workers & Pages** -> **Create Application** -> **Create Worker**
@@ -45,13 +45,13 @@
 4. 点击 **Edit code**，将 `Worker.js` 的内容覆盖编辑器中的代码
 5. 点击右上角的 **Deploy** 保存并发布
 
-### 方式二：部署到 Cloudflare Pages (直接上传)
+### 方式二：Pages部署
 
 1. 在本地电脑创建一个文件夹命名为 `public`，将代码文件重命名为 `_worker.js` 并放入其中
 2. 登录 Cloudflare Dashboard，进入 **Workers & Pages** -> **Create Application** -> **Pages** -> **Upload assets**
 3. 创建项目并将 `public` 文件夹拖拽上传，点击 **Deploy Site**
 
-### 方式三：部署到 Cloudflare Pages + GitHub (推荐)
+### 方式三：Pages+GitHub部署 (推荐)
 
 1. **Fork 本项目**到你的 GitHub 账号
 2. 打开 Cloudflare Dashboard，进入 **Workers & Pages** -> **Create Application** -> **Pages** -> **Connect to Git**
