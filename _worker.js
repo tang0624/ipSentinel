@@ -9,14 +9,14 @@ export default {
     
     // === 1. 从 Cloudflare 环境变量读取配置 ===
     const config = {
-      pageTitle: env.TITLE || "IP SENTINEL | DollSenior",
-      githubRepo: env.GITHUB || "https://github.com/wanouxuezhang/ipSentinel",
-      ownerName: env.NAME || "DollSenior",
-      ownerNameCN: env.NAMECN || "玩偶学长",
-      ownerShort: env.SHORT || "DollSenior",
-      ownerShortCN: env.SHORTCN || "玩偶🧸",
-      footerText: env.DIBUEN || "IP SENTINEL · DollSenior Edition",
-      footerTextCN: env.DIBUCN || "IP SENTINEL · 玩偶学长"
+      pageTitle: env.TITLE || "IP SENTINEL | Tang",
+      githubRepo: env.GITHUB || "https://github.com/tang0624/ipSentinel",
+      ownerName: env.NAME || "Tang",
+      ownerNameCN: env.NAMECN || "Tang",
+      ownerShort: env.SHORT || "Tang",
+      ownerShortCN: env.SHORTCN || "Tang",
+      footerText: env.DIBUEN || "IP SENTINEL · Tang",
+      footerTextCN: env.DIBUCN || "IP SENTINEL · Tang"
     };
 
     // === PWA 配置: manifest.json ===
